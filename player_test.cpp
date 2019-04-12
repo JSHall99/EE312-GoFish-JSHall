@@ -5,6 +5,7 @@
 
 #include "player.h"
 #include "card.h"
+#include "deck.h"
 #include <iostream>
 
 using namespace std;
@@ -14,12 +15,30 @@ int main(void)
    Player p;
    cout << "getName() : " << p.getName() << endl;
    
-   Card c1(10, Card::diamonds);
-   Card c2(11, Card::diamonds);
-   p.addCard(c1);
-   p.addCard(c2);
+   Deck d;
+   d.shuffle();
+
+   // Deal 7 random cards
+   for (int i = 0; i < 7; i++) {
+      p.addCard(d.dealCard());
+   }
 
    cout << "showHand() : " << p.showHand() << endl;
+
+   // Set aside books
+   cout << "Checking for books" << endl;
+   Card pair1, pair2;
+   while (p.checkHandForBook(pair1, pair2)) {
+      cout << "Book found: " << pair1 << " " << pair2 << endl;
+      p.bookCards(pair1, pair2);
+   }
+
+   // Display books
+   cout << "showBooks() : " << p.showBooks() << endl;
+   cout << "getBookSize() : " << p.getBookSize() << endl;
+   cout << "showHand() : " << p.showHand() << endl;
+   cout << "getHandSize() : " << p.getHandSize() << endl;
+   cout << "chooseCardFromHand() : " << p.chooseCardFromHand() << endl;
 
    return 0;
 }

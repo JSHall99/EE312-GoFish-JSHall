@@ -27,6 +27,8 @@ void Player::bookCards(Card c1, Card c2)
 {
    myBook.push_back(c1);
    myBook.push_back(c2);
+   removeCardFromHand(c1);
+   removeCardFromHand(c2);
 }
 
 bool Player::checkHandForBook(Card &c1, Card &c2)
@@ -103,10 +105,11 @@ string Player::showHand() const
 string Player::showBooks() const
 {
    string result;
-   for (vector<Card>::const_iterator i = myHand.begin();
-      i < myHand.end(); i++) {
-         result += ("{" + i->toString() + ", " + (i+1)->toString() + "} ");
+   for (vector<Card>::const_iterator i = myBook.begin();
+      i < myBook.end(); i+=2) {
+         result += ("{" + i->toString() + " " + (i+1)->toString() + "} ");
    }
+   return result;
 }
 
 int Player::getHandSize() const
@@ -116,7 +119,8 @@ int Player::getHandSize() const
 
 int Player::getBookSize() const
 {
-   return myBook.size();
+   // Return the number of PAIRS in the book.
+   return myBook.size() / 2;
 }
 
 // This seems to be identical to checkHandForBook - ?
