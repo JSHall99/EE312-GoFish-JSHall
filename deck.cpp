@@ -51,12 +51,13 @@ void Deck::shuffle()
 
 Card Deck::dealCard()
 {
-   // If there are no cards remaining in the deck, this will deal the
-   // default card (determined by the default constructor for the Card
-   // class)
    Card nextCard;
    if (myIndex < SIZE) {
       nextCard = myCards[myIndex];
+   }
+   else { // Error if there are no cards remaining
+      cout << "ERROR: Attempt to draw from empty deck" << endl;
+      exit(1);
    }
    myIndex++;
 
