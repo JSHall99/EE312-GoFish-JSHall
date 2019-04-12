@@ -40,7 +40,12 @@ class Player
     //OPTIONAL
     // comment out if you decide to not use it    
     //Does the player have a card with the same rank as c in her hand?
-    bool rankInHand(Card c) const; 
+    //If so, "found" is set equal to that card.
+    bool rankInHand(Card c, Card &found) const; 
+
+    // Returns the first Card found in the player's hand that has the
+    // same rank as c.
+    //Card findRankInHand(Card c) const;
     
     //uses some strategy to choose one card from the player's
     //hand so they can say "Do you have a 4?"
@@ -63,14 +68,14 @@ class Player
     //this function will check a players hand for a pair. 
     //If a pair is found, it returns true and populates the two variables with the cards tha make the pair.
 
-    bool checkHandForPair(Card &c1, Card &c2);
+    //bool checkHandForPair(Card &c1, Card &c2);
 
     //OPTIONAL
     // comment out if you decide to not use it    
     //Does the player have a card with the same rank as c in her hand?
     //e.g. will return true if the player has a 7d and the parameter is 7c
     
-    bool sameRankInHand(Card c) const; 
+    //bool sameRankInHand(Card c) const; 
     
     
   private:

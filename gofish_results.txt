@@ -1,0 +1,336 @@
+Dealing...
+Jackson was dealt Qs 9h 9s Kd Jc 7h Ac 
+Scott was dealt Jh Kc 3d 5d 10s 8h Jd 
+Jackson booked {9h 9s}
+Scott booked {Jh Jd}
+
+Turn #1
+Jackson has Qs Kd Jc 7h Ac 
+Scott has Kc 3d 5d 10s 8h 
+Jackson: Do you have any 7's?
+Scott: Go Fish!
+Jackson drew the 6c.
+
+Turn #2
+Jackson has Qs Kd Jc 7h Ac 6c 
+Scott has Kc 3d 5d 10s 8h 
+Scott: Do you have any 8's?
+Jackson: Go Fish!
+Scott drew the 8d.
+Scott booked {8h 8d}
+
+Turn #3
+Jackson has Qs Kd Jc 7h Ac 6c 
+Scott has Kc 3d 5d 10s 
+Jackson: Do you have any K's?
+Scott: Yes, I have a K.
+Scott gave Jackson the Kc.
+Jackson booked {Kd Kc}
+
+Turn #4
+Jackson has Qs Jc 7h Ac 6c 
+Scott has 3d 5d 10s 
+Jackson: Do you have any 6's?
+Scott: Go Fish!
+Jackson drew the 5c.
+
+Turn #5
+Jackson has Qs Jc 7h Ac 6c 5c 
+Scott has 3d 5d 10s 
+Scott: Do you have any 5's?
+Jackson: Yes, I have a 5.
+Jackson gave Scott the 5c.
+Scott booked {5d 5c}
+
+Turn #6
+Jackson has Qs Jc 7h Ac 6c 
+Scott has 3d 10s 
+Scott: Do you have any 10's?
+Jackson: Go Fish!
+Scott drew the 2s.
+
+Turn #7
+Jackson has Qs Jc 7h Ac 6c 
+Scott has 3d 10s 2s 
+Jackson: Do you have any 7's?
+Scott: Go Fish!
+Jackson drew the Js.
+Jackson booked {Jc Js}
+
+Turn #8
+Jackson has Qs 7h Ac 6c 
+Scott has 3d 10s 2s 
+Scott: Do you have any 10's?
+Jackson: Go Fish!
+Scott drew the 4h.
+
+Turn #9
+Jackson has Qs 7h Ac 6c 
+Scott has 3d 10s 2s 4h 
+Jackson: Do you have any 7's?
+Scott: Go Fish!
+Jackson drew the 6h.
+Jackson booked {6c 6h}
+
+Turn #10
+Jackson has Qs 7h Ac 
+Scott has 3d 10s 2s 4h 
+Scott: Do you have any 3's?
+Jackson: Go Fish!
+Scott drew the 8c.
+
+Turn #11
+Jackson has Qs 7h Ac 
+Scott has 3d 10s 2s 4h 8c 
+Jackson: Do you have any 7's?
+Scott: Go Fish!
+Jackson drew the Ks.
+
+Turn #12
+Jackson has Qs 7h Ac Ks 
+Scott has 3d 10s 2s 4h 8c 
+Scott: Do you have any 3's?
+Jackson: Go Fish!
+Scott drew the 8s.
+Scott booked {8c 8s}
+
+Turn #13
+Jackson has Qs 7h Ac Ks 
+Scott has 3d 10s 2s 4h 
+Jackson: Do you have any K's?
+Scott: Go Fish!
+Jackson drew the Qd.
+Jackson booked {Qs Qd}
+
+Turn #14
+Jackson has 7h Ac Ks 
+Scott has 3d 10s 2s 4h 
+Scott: Do you have any 4's?
+Jackson: Go Fish!
+Scott drew the Kh.
+
+Turn #15
+Jackson has 7h Ac Ks 
+Scott has 3d 10s 2s 4h Kh 
+Jackson: Do you have any 7's?
+Scott: Go Fish!
+Jackson drew the As.
+Jackson booked {Ac As}
+
+Turn #16
+Jackson has 7h Ks 
+Scott has 3d 10s 2s 4h Kh 
+Scott: Do you have any 10's?
+Jackson: Go Fish!
+Scott drew the 3s.
+Scott booked {3d 3s}
+
+Turn #17
+Jackson has 7h Ks 
+Scott has 10s 2s 4h Kh 
+Jackson: Do you have any 7's?
+Scott: Go Fish!
+Jackson drew the 7d.
+Jackson booked {7h 7d}
+
+Turn #18
+Jackson has Ks 
+Scott has 10s 2s 4h Kh 
+Scott: Do you have any 10's?
+Jackson: Go Fish!
+Scott drew the Qc.
+
+Turn #19
+Jackson has Ks 
+Scott has 10s 2s 4h Kh Qc 
+Jackson: Do you have any K's?
+Scott: Yes, I have a K.
+Scott gave Jackson the Kh.
+Jackson booked {Ks Kh}
+
+Turn #20
+Jackson has (no cards)
+Scott has 10s 2s 4h Qc 
+Jackson drew the 6s.
+
+Turn #21
+Jackson has 6s 
+Scott has 10s 2s 4h Qc 
+Scott: Do you have any 2's?
+Jackson: Go Fish!
+Scott drew the 2c.
+Scott booked {2s 2c}
+
+Turn #22
+Jackson has 6s 
+Scott has 10s 4h Qc 
+Jackson: Do you have any 6's?
+Scott: Go Fish!
+Jackson drew the 5h.
+
+Turn #23
+Jackson has 6s 5h 
+Scott has 10s 4h Qc 
+Scott: Do you have any 10's?
+Jackson: Go Fish!
+Scott drew the 9c.
+
+Turn #24
+Jackson has 6s 5h 
+Scott has 10s 4h Qc 9c 
+Jackson: Do you have any 6's?
+Scott: Go Fish!
+Jackson drew the 2d.
+
+Turn #25
+Jackson has 6s 5h 2d 
+Scott has 10s 4h Qc 9c 
+Scott: Do you have any Q's?
+Jackson: Go Fish!
+Scott drew the 5s.
+
+Turn #26
+Jackson has 6s 5h 2d 
+Scott has 10s 4h Qc 9c 5s 
+Jackson: Do you have any 6's?
+Scott: Go Fish!
+Jackson drew the 7s.
+
+Turn #27
+Jackson has 6s 5h 2d 7s 
+Scott has 10s 4h Qc 9c 5s 
+Scott: Do you have any Q's?
+Jackson: Go Fish!
+Scott drew the 4s.
+Scott booked {4h 4s}
+
+Turn #28
+Jackson has 6s 5h 2d 7s 
+Scott has 10s Qc 9c 5s 
+Jackson: Do you have any 7's?
+Scott: Go Fish!
+Jackson drew the 6d.
+Jackson booked {6s 6d}
+
+Turn #29
+Jackson has 5h 2d 7s 
+Scott has 10s Qc 9c 5s 
+Scott: Do you have any 9's?
+Jackson: Go Fish!
+Scott drew the 10h.
+Scott booked {10s 10h}
+
+Turn #30
+Jackson has 5h 2d 7s 
+Scott has Qc 9c 5s 
+Jackson: Do you have any 7's?
+Scott: Go Fish!
+Jackson drew the Ah.
+
+Turn #31
+Jackson has 5h 2d 7s Ah 
+Scott has Qc 9c 5s 
+Scott: Do you have any Q's?
+Jackson: Go Fish!
+Scott drew the 4c.
+
+Turn #32
+Jackson has 5h 2d 7s Ah 
+Scott has Qc 9c 5s 4c 
+Jackson: Do you have any A's?
+Scott: Go Fish!
+Jackson drew the Ad.
+Jackson booked {Ah Ad}
+
+Turn #33
+Jackson has 5h 2d 7s 
+Scott has Qc 9c 5s 4c 
+Scott: Do you have any 4's?
+Jackson: Go Fish!
+Scott drew the 4d.
+Scott booked {4c 4d}
+
+Turn #34
+Jackson has 5h 2d 7s 
+Scott has Qc 9c 5s 
+Jackson: Do you have any 5's?
+Scott: Yes, I have a 5.
+Scott gave Jackson the 5s.
+Jackson booked {5h 5s}
+
+Turn #35
+Jackson has 2d 7s 
+Scott has Qc 9c 
+Jackson: Do you have any 2's?
+Scott: Go Fish!
+Jackson drew the 7c.
+Jackson booked {7s 7c}
+
+Turn #36
+Jackson has 2d 
+Scott has Qc 9c 
+Scott: Do you have any Q's?
+Jackson: Go Fish!
+Scott drew the Qh.
+Scott booked {Qc Qh}
+
+Turn #37
+Jackson has 2d 
+Scott has 9c 
+Jackson: Do you have any 2's?
+Scott: Go Fish!
+Jackson drew the 3c.
+
+Turn #38
+Jackson has 2d 3c 
+Scott has 9c 
+Scott: Do you have any 9's?
+Jackson: Go Fish!
+Scott drew the 3h.
+
+Turn #39
+Jackson has 2d 3c 
+Scott has 9c 3h 
+Jackson: Do you have any 3's?
+Scott: Yes, I have a 3.
+Scott gave Jackson the 3h.
+Jackson booked {3c 3h}
+
+Turn #40
+Jackson has 2d 
+Scott has 9c 
+Jackson: Do you have any 2's?
+Scott: Go Fish!
+Jackson drew the 2h.
+Jackson booked {2d 2h}
+
+Turn #41
+Jackson has (no cards)
+Scott has 9c 
+Scott: Do you have any 9's?
+Jackson: Go Fish!
+Scott drew the 9d.
+Scott booked {9c 9d}
+
+Turn #42
+Jackson has (no cards)
+Scott has (no cards)
+Jackson drew the 10c.
+
+Turn #43
+Jackson has 10c 
+Scott has (no cards)
+Scott drew the 10d.
+
+Turn #44
+Jackson has 10c 
+Scott has 10d 
+Jackson: Do you have any 10's?
+Scott: Yes, I have a 10.
+Scott gave Jackson the 10d.
+Jackson booked {10c 10d}
+
+GAME OVER
+Jackson has 15 books: {9h 9s} {Kd Kc} {Jc Js} {6c 6h} {Qs Qd} {Ac As} {7h 7d} {Ks Kh} {6s 6d} {Ah Ad} {5h 5s} {7s 7c} {3c 3h} {2d 2h} {10c 10d} 
+Scott has 11 books: {Jh Jd} {8h 8d} {5d 5c} {8c 8s} {3d 3s} {2s 2c} {4h 4s} {10s 10h} {4c 4d} {Qc Qh} {9c 9d} 
+Jackson wins!

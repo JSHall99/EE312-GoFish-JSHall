@@ -50,14 +50,31 @@ bool Player::checkHandForBook(Card &c1, Card &c2)
    return false; // No pairs found.
 }
 
-bool Player::rankInHand(Card c) const
+bool Player::rankInHand(Card c, Card &found) const
 {
    for (vector<Card>::const_iterator i = myHand.begin();
       i < myHand.end(); i++) {
-         if (i->getRank() == c.getRank()) return true;
+         if (i->getRank() == c.getRank()) {
+            found = *i;
+            return true;
+         }
    }
    return false; // No match found
 }
+
+/*
+card Player::findRankInHand(Card c) const
+{
+   for (vector<Card>::const_iterator i = myHand.begin();
+      i < myHand.end(); i++) {
+         if (i->getRank() == c.getRank()) return *i;
+   }
+   // Error if no such card found.  (This will normally be averted by
+   // calling rankInHand() before findRankInHand().)
+   cout << "ERROR: No card found with rank " << c.getRank() << endl;
+   exit(1);
+}
+*/
 
 Card Player::chooseCardFromHand() const
 {
@@ -92,11 +109,16 @@ Card Player::removeCardFromHand(Card c)
 string Player::showHand() const
 {
    string result;
-   for (vector<Card>::const_iterator i = myHand.begin();
-      i < myHand.end(); i++) {
-         //cout << i->toString() << endl; // Debugging
-         result += i->toString();
-         result += " ";
+   if (getHandSize() == 0) {
+      result = "(no cards)";
+   }
+   else {
+      for (vector<Card>::const_iterator i = myHand.begin();
+         i < myHand.end(); i++) {
+            //cout << i->toString() << endl; // Debugging
+            result += i->toString();
+            result += " ";
+      }
    }
    return result;
 }
@@ -105,9 +127,14 @@ string Player::showHand() const
 string Player::showBooks() const
 {
    string result;
-   for (vector<Card>::const_iterator i = myBook.begin();
-      i < myBook.end(); i+=2) {
-         result += ("{" + i->toString() + " " + (i+1)->toString() + "} ");
+   if (getBookSize() == 0) {
+      result = "(no books)";
+   }
+   else {
+      for (vector<Card>::const_iterator i = myBook.begin();
+         i < myBook.end(); i+=2) {
+            result += ("{" + i->toString() + " " + (i+1)->toString() + "} ");
+      }
    }
    return result;
 }
@@ -124,14 +151,18 @@ int Player::getBookSize() const
 }
 
 // This seems to be identical to checkHandForBook - ?
+/*
 bool Player::checkHandForPair(Card &c1, Card &c2)
 {
    return checkHandForBook(c1, c2);
 }
+*/
 
 // Same as rankInHand
+/*
 bool Player::sameRankInHand(Card c) const
 {
    return rankInHand(c);
 }
+*/
 
