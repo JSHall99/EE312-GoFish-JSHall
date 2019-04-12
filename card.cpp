@@ -56,6 +56,7 @@ string Card::rankString(int r) const
    string rank;
    switch (r) {
       case 1: rank = "A"; break;
+      case 10: rank = "10"; break; // Special case b/c 2 digits
       case 11: rank = "J"; break;
       case 12: rank = "Q"; break;
       case 13: rank = "K"; break;
