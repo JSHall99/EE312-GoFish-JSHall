@@ -30,40 +30,40 @@ string Card::toString() const
 bool Card::sameSuitAs(const Card& c) const
 {
    string compValue = c.toString();
-   return compValue[2] == suitString(mySuit);
+   string myValue = toString();
+   return compValue[2] == myValue[2];
 }
 
-int Card::getRank()
+int Card::getRank() const
 {
    return myRank;
 }
 
-string Card::suitString(Suit s)
+string Card::suitString(Suit s) const
 {
    string suit;
    switch (s) {
-      case spades: suit = "s";
-      case hearts: suit = "h";
-      case diamonds: suit = "d";
-      case clubs: suit = "c";
+      case spades: suit = "s"; break;
+      case hearts: suit = "h"; break;
+      case diamonds: suit = "d"; break;
+      case clubs: suit = "c"; break;
    }
    return suit;
 }
 
-string Card::rankString(int r)
+string Card::rankString(int r) const
 {
-   char rank;
+   string rank;
    switch (r) {
-      case 1: rank = 'A';
-      case 11: rank = 'J';
-      case 12: rank = 'Q';
-      case 13: rank = 'K';
+      case 1: rank = "A"; break;
+      case 11: rank = "J"; break;
+      case 12: rank = "Q"; break;
+      case 13: rank = "K"; break;
       // Otherwise, convert number to ASCII
-      default: rank = myRank + '0';
+      default: rank = myRank + '0'; break;
    }
 
-   string s = rank;
-   return s;
+   return rank;
 }
 
 bool Card::operator == (const Card& rhs) const
@@ -71,7 +71,7 @@ bool Card::operator == (const Card& rhs) const
    return (toString() == rhs.toString());
 }
 
-bool Card::operator != (Const Card& rhs) const
+bool Card::operator != (const Card& rhs) const
 {
    return !(*this == rhs);
 }
